@@ -4,10 +4,9 @@ body{
     background: #f3bda9;
 }
 
-
 .description{
     font-size: 20px;
-    line-height: 28px;
+    line-height: 30px;
     width: auto;
 }
 
@@ -33,11 +32,12 @@ body{
     border-radius: 22px;
     border: 2px #8fd8d2 solid;
     padding: 5px;
-    margin: 0px 0px 12px -5x;
+    margin:  12px -5x;
 }
 
+
 .input input{
-    width: 80%;
+    width: 100%;
     border: none;
     outline: none;
     transform: translateY(-10%);
@@ -45,14 +45,34 @@ body{
     font-size: 11pt;
 }
 
+.genero-input select {
+    width: 100%; /* Preencher toda a largura da div */
+    border: none;
+    outline: none;
+    transform: translateY(-10%);
+    color: #2b344b;
+    font-size: 11pt;
+    
+  }
+
+
+.select-input select {
+    width: 100%; /* Preencher a largura da div */
+    width: 100%; /* Preencher toda a largura da div */
+    border: none;
+    outline: none;
+    transform: translateY(-10%);
+    color: #2b344b;
+    font-size: 11pt;
+  }
 
 .register-button {
     margin-top: 20px;
     text-align: center;
 }
 
-    /* Estilo para os botões de cadastro */
-        .final-button {
+/* Estilo para os botões de cadastro */
+.final-button {
         display: inline-block;
         padding: 10px 20px;
         margin: 10px;
@@ -65,10 +85,10 @@ body{
         transition: background-color 0.3s;
     }
 
-    .final-button {
+.final-button {
         background-color: #4285F4; /* Cor de fundo  */
     }
 
-        .final-button:hover {
+.final-button:hover {
         background-color: #0e63c0; /* Cor de fundo ao passar  */
     }
