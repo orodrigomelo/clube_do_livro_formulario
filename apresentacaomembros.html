@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="apresentacaomembros.css">
     <link rel="stylesheet" href="headerFooter.css">
     
+    
     <title>Clube do Livro - Membros</title>
 </head>
 
@@ -39,6 +40,9 @@
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required><br>
 
+            <label for="foto">Foto:</label>
+             <input type="file" id="foto" name="foto" accept="image/*"><br>
+
             <label for="generos">Gêneros Literários Preferidos:</label>
             <input type="text" id="generos" name="generos" required><br>
 
@@ -58,8 +62,8 @@
         </form>
     </div>
 
-    <div class="member-card">
-        <img src="foto1.jpg" alt="Membro 1">
+    <div class="member-card" id="member-card">
+        <img id="member-photo" src="foto1.jpg" alt="Membro 1">
         <h2>Nome do Membro 1</h2>
         <p>Gêneros Literários Preferidos: Romance, Mistério</p>
         <div class="social-links">
